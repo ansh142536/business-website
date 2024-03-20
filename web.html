@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">Delicious Bites</a>
+      </div>
+      <div class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Delicious Bites</h1>
+        <p>Experience culinary excellence like never before.</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+    </section>
+
+    <section class="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-categories">
+        <button class="category-btn active">All</button>
+        <button class="category-btn">Appetizers</button>
+        <button class="category-btn">Main Courses</button>
+        <button class="category-btn">Desserts</button>
+      </div>
+      <div class="menu-items">
+        <!-- Add menu items here -->
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Learn more about our restaurant and our passion for food.</p>
+          <!-- Add about section content here -->
+        </div>
+        <div class="about-image">
+          <img src="about-image.jpg" alt="About Image">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>123 Main Street, City</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@deliciousbites.com</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <p>&copy; 2023 Delicious Bites. All rights reserved.</p>
+  </footer>
+
+  <div class="login-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Login</h2>
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form -group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="signup-modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Sign Up</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
